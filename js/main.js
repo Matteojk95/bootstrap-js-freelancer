@@ -6,29 +6,13 @@ Il prezzo orario per una commissione varia in questo modo:
 */
 
 document.getElementById("button"). addEventListener("click", function () {
-    let sviluppobackendeachhour = 20.5;
-    let sviluppofrontendeachhour = 15.3;
-    let analisiprogettualeeachhour = 33.6;
-    let numeroore = "i"
+    let sviluppobackend = 20.5;
+    let sviluppofrontend = 15.3;
+    let analisiprogettuale = 33.6;
+    let numeroore = document.getElementById("numeroore");
+    let numerooreValue= numeroore.Value ;
+
+    function
+    if ("sviluppobackend") = sviluppobackend*numeroore 
 
 
-    if("sviloppobackendeachhour") {
-        for ( let i=0; i>=1; i++) {
-            console.log (20.5*i);
-        }
-    }
- 
-    if("sviluppofrontendeachhour") {
-        for (let i=0; i>=1; i++) {
-            console.log (15.3*i);
-        }
-    }
-
-    if("analisiprogettualeeachhour") {
-        for ( let i=0; i>=1; i++) {
-            console.log (33.6*i);
-        }
-    }
-
-
-});
