@@ -11,12 +11,10 @@ document.getElementById("button"). addEventListener("click", function () {
     let analisiprogettuale = 33.6;
     let numeroore = document.getElementById("numeroore");
     let numerooreValue= numeroore.Value ;
-    let price= numeroore*
+    
+    if ("sviluppobackend") = sviluppobackend*numeroore ;
+    if ("sviluppofrontend") = sviluppofrontend*numeroore;
+    if ("analisiprogettuale") = analisiprogettuale*numeroore;
+    return price
 
-    function
-    if ("sviluppobackend") = sviluppobackend*numeroore 
-    if ("sviluppofrontend") = sviluppofrontend*numeroore
-    if ("analisiprogettuale") = analisiprogettuale*numeroore
-    return 
-
-
+})
