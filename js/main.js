@@ -24,5 +24,11 @@ document.getElementById("button"). addEventListener("click", function () {
         }
     }
 
+    if("analisiprogettualeeachhour") {
+        for ( let i=0; i>=1; i++) {
+            console.log (33.6*i);
+        }
+    }
 
-}
+
+});
